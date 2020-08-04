@@ -1,14 +1,17 @@
 import React from 'react';
 
-import whatsappIcon from '../../assets/images/icons/whatsapp.svg'
+import whatsappIcon from '../../assets/images/icons/whatsapp.svg';
 
-import './styles.css'
+import './styles.css';
 
 function TeacherItem() {
-  return(
+  return (
     <article className="teacher-item">
       <header>
-        <img src="https://avatars2.githubusercontent.com/u/2908499?s=460&u=7ff891c1ed75c49ffa705609669fda14a10fe2d3&v=4" alt="Manoel Neto"/>
+        <img
+          src="https://avatars2.githubusercontent.com/u/2908499?s=460&u=7ff891c1ed75c49ffa705609669fda14a10fe2d3&v=4"
+          alt="Manoel Neto"
+        />
         <div>
           <strong>Manoel Neto</strong>
           <span>Química</span>
@@ -17,8 +20,10 @@ function TeacherItem() {
 
       <p>
         Entusiasta das melhores tecnologias de química avançada.
-        <br /><br />
-        Apaixonado por explodir coisas em laboratório e por mudar a vida das pessoas através de experiências. Mais de 200.000 pessoas já passaram por uma das minhas explosões.
+        <br />
+        <br />
+        Apaixonado por explodir coisas em laboratório e por mudar a vida das pessoas através de experiências. Mais de 200.000 pessoas já
+        passaram por uma das minhas explosões.
       </p>
 
       <footer>
@@ -27,7 +32,7 @@ function TeacherItem() {
           <strong>R$ 20,00</strong>
         </p>
         <button type="button">
-          <img src={whatsappIcon} alt="Whatsapp"/>
+          <img src={whatsappIcon} alt="Whatsapp" />
           Entrar em contato
         </button>
       </footer>
@@ -35,4 +40,4 @@ function TeacherItem() {
   );
 }
 
-export default TeacherItem
+export default TeacherItem;

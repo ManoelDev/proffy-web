@@ -3,7 +3,6 @@
   height: 100vh;
 }
 
-
 #search-teacher {
   margin-top: 3.2rem;
 }
@@ -52,8 +51,6 @@
   width: 90%;
 }
 
-
-
 @media (min-width: 700px) {
 
   #page-teacher-list {
@@ -77,6 +74,5 @@
     max-width: 740px;
     margin: 0 auto;
   }
-
  
 }
